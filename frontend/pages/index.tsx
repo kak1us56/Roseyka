@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Header } from "../src/components/layout/Header";
+import { Footer} from "../src/components/layout/Footer";
 
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
                 <title>Росєйка</title>
             </Head>
             <Header />
+            <Footer />
         </>
     )
 }
