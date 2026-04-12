@@ -1,4 +1,5 @@
 import { AboutMain } from "../layout/AboutMain";
+import { HistoryMain } from "../layout/HistoryMain";
 import { PostCardSection } from "../layout/PostcardSection";
 
 export function MainPage() {
@@ -6,6 +7,7 @@ export function MainPage() {
         <main>
             <PostCardSection />
             <AboutMain />
+            <HistoryMain />
         </main>
     )
 }
