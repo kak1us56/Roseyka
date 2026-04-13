@@ -7,7 +7,7 @@ export function HistoryMain() {
     return (
         <div className="bg-[#E1E1E3] min-h-[47.4775rem]">
             <div className="py-[1.5rem] bg-[#041E48] w-[calc((100vw_-_80.12rem)_/_2_+_27rem)]">
-                <h3 className={`text-[2rem] leading-cssnormal uppercase text-[#EAE8D9] text-right pr-[1.69rem] ${inter.className}`}>
+                <h3 className={`text-[2rem] leading-cssnormal uppercase text-[#EAE8D9] text-right pr-[1.69rem] font-normal ${inter.className}`}>
                     НАША <span className={`${greatVibes.className}`}>ІСТОРІЯ</span>
                 </h3>
             </div>

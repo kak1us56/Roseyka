@@ -6,6 +6,7 @@ import facebook from "../../icons/facebook.png";
 import watsapp from "../../icons/whatsapp.png";
 import telegram from "../../icons/ic_baseline-telegram.png";
 import messanger from "../../icons/fe_messanger.png";
+import logo from "../../icons/logo.png";
 
 export function Footer() {
     return (
@@ -13,7 +14,7 @@ export function Footer() {
             <div className="max-w-[80.125rem] px-4 mx-auto">
                 <div className="px-[2.625rem] py-[3.0625rem] border-t-[6px] border-t-[#1D1D1F] flex items-center justify-between">
                     <div>
-                        <h2 className={`${greatVibes.className} text-[2.25rem] text-[#1D1D1F] font-normal`}>Бессарабський степ</h2>
+                        <Image src={logo} alt="Бессарабський степ" />
                         <div className="pt-8">©2026 Бессарабський степ, Inc. All rights reserved. </div>
                     </div>
                     <div className="flex gap-8 items-center">
