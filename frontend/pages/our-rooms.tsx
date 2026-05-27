@@ -4,7 +4,7 @@ import { Footer} from "../src/components/layout/Footer";
 import { MainRooms } from "../src/components/pages/MainRooms";
 
 
-export default function HomePage() {
+export default function OurRoomsPage() {
     return (
         <>
             <Head>

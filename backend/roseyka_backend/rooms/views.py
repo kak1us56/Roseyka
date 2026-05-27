@@ -23,7 +23,7 @@ class RoomAPIViewSet(viewsets.ModelViewSet):
         return Response(data=data, status=status.HTTP_200_OK)
     
     def retrieve(self, request: Request, slug=None) -> Response:
-        queryset = Room.objects.all()
+        queryset = Room.objects.prefetch_related('images').all()
         room = get_object_or_404(queryset, slug=slug)
         serializer = RoomSerializer(room)
 
