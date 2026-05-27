@@ -1,3 +1,9 @@
 from django.contrib import admin
+from ckeditor.widgets import CKEditorWidget
 
-# Register your models here.
+from .models import Room
+
+@admin.register(Room)
+class RoomAdmin(admin.ModelAdmin):
+    list_display = ["title", "price", "id"]
+    readonly_fields = ["slug",]
