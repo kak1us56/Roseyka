@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "ckeditor",
 
     "rooms",
+    "carousel",
 ]
 
 MIDDLEWARE = [

@@ -20,10 +20,12 @@ from django.conf.urls.static import static
 from django.urls import path, include
 
 from rooms.views import router as rooms_router
+from carousel.views import router as carousel_router
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include(rooms_router.urls)),
+    path("", include(carousel_router.urls)),
 ]
 
 if settings.DEBUG is True:

@@ -10,7 +10,6 @@ services:
       - .env
     depends_on:
       - database
-      - cache
     volumes:
       - django_static_data:/app/staticfiles
       - ./backend/roseyka_backend/media:/app/media
@@ -48,4 +47,3 @@ services:
 volumes:
   pgdata:
   django_static_data:
-  

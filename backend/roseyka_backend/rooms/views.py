@@ -10,7 +10,7 @@ from .models import Room
 
 
 class RoomAPIViewSet(viewsets.ModelViewSet):
-    permission_classes = [AllowAny]
+    permission_classes = [IsAuthenticatedOrReadOnly]
     serializer_class = RoomSerializer
     lookup_field = "slug"
     queryset = Room.objects.all()
