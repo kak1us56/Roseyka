@@ -10,7 +10,7 @@ export default function OurRoomsPage() {
             <Head>
                 <title>Наші номери</title>
             </Head>
-            <Header />
+            <Header stroke={true} />
             <MainRooms />
             <Footer />
         </>

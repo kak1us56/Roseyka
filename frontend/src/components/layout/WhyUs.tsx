@@ -1,6 +1,7 @@
 import { inter } from "../../styles/fonts";
 import { greatVibes } from "../../styles/fonts";
 import { CardsBlock } from "../features/WhyUs/CardsBlock";
+import Link from "next/link";
 
 export function WhyUs() {
     return (
@@ -12,10 +13,13 @@ export function WhyUs() {
                 <div className="pb-[7.87rem]">
                     <CardsBlock />
                 </div>
-                <button className={`bg-[#E7E8DA] px-[3.38rem] py-[1.5rem] rounded-[0.5rem] border-[2px] border-[#041E48]
-                        text-[#041E48] text-[2.5rem] leading-cssnormal tracking-[0.125rem] ${greatVibes.className} font-normal`}>
-                    Оберіть свій ідеальний номер
-                </button>
+                <Link href={`/our-rooms`}>
+                    <button className={`bg-[#E7E8DA] px-[3.38rem] py-[1.5rem] rounded-[0.5rem] border-[2px] border-[#041E48]
+                            text-[#041E48] text-[2.5rem] leading-cssnormal tracking-[0.125rem] ${greatVibes.className} font-normal`}>
+                        Оберіть свій ідеальний номер
+                    </button>                
+                </Link>
+
             </div>
         </div>
     )

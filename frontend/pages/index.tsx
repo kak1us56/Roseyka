@@ -10,7 +10,7 @@ export default function HomePage() {
             <Head>
                 <title>Росєйка</title>
             </Head>
-            <Header />
+            <Header stroke={false} />
             <MainPage />
             <Footer />
         </>

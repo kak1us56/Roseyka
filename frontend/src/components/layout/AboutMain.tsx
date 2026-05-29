@@ -6,7 +6,7 @@ import { Carousel } from "../features/Carousel/Carousel";
 export function AboutMain() {
     return (
         <>
-            <div className="min-h-[25.35rem] bg-[#E1E1E3]">
+            <div id="about" className="min-h-[25.35rem] bg-[#E1E1E3]">
                 <h3 className="text-[2rem] leading-cssnormal text-center pt-[1.5rem] pb-[3.38rem] font-medium tracking-[.1rem]">
                     ПРО <span className={`${greatVibes.className} font-normal`}>НАС</span>
                 </h3>

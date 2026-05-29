@@ -12,7 +12,7 @@ export default function RoomPage({ room }: { room: RoomPageType | null }) {
             <Head>
                 <title>{room?.title}</title>
             </Head>
-            <Header />
+            <Header stroke={true} />
             <MainRoom room={room} />
             <Footer />
         </>
