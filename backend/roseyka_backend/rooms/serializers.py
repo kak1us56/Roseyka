@@ -16,5 +16,5 @@ class RoomSerializer(serializers.ModelSerializer):
         fields = [
             'id', 'slug', 'title', 'subtitle_page', 'subtitle_card', 'description_card',
             'description_page', 'price', 'main_image', 
-            'conditioner', 'tv', 'images'
+            'conditioner', 'tv', 'shower', 'furniture', 'fridge', 'images'
         ]

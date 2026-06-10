@@ -21,6 +21,9 @@ class Room(models.Model):
 
     conditioner = models.BooleanField(default=False)
     tv = models.BooleanField(default=False)
+    furniture = models.BooleanField(default=False)
+    shower = models.BooleanField(default=False)
+    fridge = models.BooleanField(default=False)
 
     def save(self, *args, **kwargs):
         if not self.slug:

@@ -24,4 +24,7 @@ export interface RoomPageType extends BaseRoom {
     description_page: string;
     conditioner: boolean;
     tv: boolean;
+    furniture: boolean;
+    shower: boolean;
+    fridge: boolean;
 }
